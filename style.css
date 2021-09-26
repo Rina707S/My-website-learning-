@@ -1,0 +1,81 @@
+:root {
+  --button-font: Century Gothic;
+  --button-weight: bold;
+  --button-font-size: 20px;
+}
+
+body {
+  text-align: center;
+  font-family: fantasy;
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+
+  flex: 1;
+}
+
+#contact {
+  border: 2px solid #6bbbff;
+  border-radius: 10px;
+  padding: 20px;
+  background: radial-gradient(
+    circle at 0.8% 3.1%,
+    rgb(255, 188, 224) 0%,
+    rgb(170, 165, 255) 46%,
+    rgb(165, 255, 205) 100.2%
+  );
+  font-family: var(--button-font);
+  font-weight: var(--button-weight);
+  font-size: var(--button-font-size);
+}
+
+#about {
+  border: 2px solid #a025e7;
+  border-radius: 10px;
+  padding: 20px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(222, 168, 248) 0%,
+    rgb(168, 222, 248) 21.8%,
+    rgb(189, 250, 205) 35.6%,
+    rgb(243, 250, 189) 52.9%,
+    rgb(250, 227, 189) 66.8%,
+    rgb(248, 172, 172) 90%,
+    rgb(254, 211, 252) 99.7%
+  );
+  font-family: var(--button-font);
+  font-weight: var(--button-weight);
+  font-size: var(--button-font-size);
+}
+
+#about:hover {
+  color: white;
+  background: linear-gradient(
+    105.9deg,
+    rgb(15, 209, 165) 3.8%,
+    rgb(15, 157, 209) 20.8%,
+    rgb(133, 13, 230) 51.9%,
+    rgb(230, 13, 202) 73.1%,
+    rgb(242, 180, 107) 94.1%
+  );
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+#contact:hover {
+  color: white;
+  background: linear-gradient(
+    105.9deg,
+    rgb(15, 209, 165) 3.8%,
+    rgb(15, 157, 209) 20.8%,
+    rgb(133, 13, 230) 51.9%,
+    rgb(230, 13, 202) 73.1%,
+    rgb(242, 180, 107) 94.1%
+  );
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
