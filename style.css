@@ -2,12 +2,22 @@
   --button-font: Century Gothic;
   --button-weight: bold;
   --button-font-size: 20px;
+  --button-shadow: 9px 9px 5px rgba(109, 189, 230, 0.349);
 }
 
 body {
   text-align: center;
   font-family: fantasy;
   background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+}
+
+h1 {
+  text-shadow: 9px 9px 5px rgba(153, 27, 211, 0.856);
+}
+
+h3 {
+  color: blueviolet;
+  text-shadow: 5px 5px 5px white;
 }
 
 .buttons {
@@ -22,6 +32,7 @@ body {
   border: 2px solid #6bbbff;
   border-radius: 10px;
   padding: 20px;
+  box-shadow: var(--button-shadow);
   background: radial-gradient(
     circle at 0.8% 3.1%,
     rgb(255, 188, 224) 0%,
@@ -37,6 +48,7 @@ body {
   border: 2px solid #a025e7;
   border-radius: 10px;
   padding: 20px;
+  box-shadow: var(--button-shadow);
   background: radial-gradient(
     circle at 10% 20%,
     rgb(222, 168, 248) 0%,
